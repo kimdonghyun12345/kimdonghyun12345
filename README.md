@@ -1,13 +1,13 @@
 <div align="center">
 
-# 👨‍💻 KIM DONGHYUN
-
-### FRONTEND · JAVA · DATA & AI
+<img src="assets/hero.svg" width="100%" alt="Kim Donghyun — 프론트엔드 개발자 모션 배너" />
 
 **코드로 배우고, 프로젝트로 성장하는 개발자**
 
 `@kimdonghyun12345` · Developer Portfolio
 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=0B1220)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-F89820?style=for-the-badge)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![MyBatis](https://img.shields.io/badge/MyBatis-DC382D?style=for-the-badge)
