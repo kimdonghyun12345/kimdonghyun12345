@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+<title id="title">Kim Donghyun — Frontend developer portfolio</title>
+<desc id="desc">Animated technology banner with typing text, flowing network signals and a glowing orbit.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#101b30"/></linearGradient>
+ <linearGradient id="accent"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#24344e" stroke-width=".5"/></pattern>
+ <clipPath id="typing"><rect x="66" y="164" width="330" height="40"><animate attributeName="width" values="0;330;330;0" keyTimes="0;.38;.85;1" dur="8s" repeatCount="indefinite"/></rect></clipPath>
+ <style>@keyframes dash{to{stroke-dashoffset:-80}} @keyframes blink{50%{opacity:.15}} @keyframes glow{50%{opacity:.35}} .flow{animation:dash 5s linear infinite}.cursor{animation:blink 1s steps(1) infinite}.pulse{animation:glow 3s ease-in-out infinite} @media(prefers-reduced-motion:reduce){.flow,.cursor,.pulse{animation:none}}</style>
+</defs>
+<rect x="1" y="1" width="998" height="338" rx="22" fill="url(#bg)" stroke="#2b3b56"/>
+<rect x="2" y="2" width="996" height="336" rx="21" fill="url(#grid)" opacity=".5"/>
+<path d="M24 1H976" stroke="url(#accent)" stroke-width="2"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <rect x="64" y="46" width="218" height="27" rx="13.5" fill="#14263a" stroke="#224360"/>
+ <circle cx="81" cy="60" r="4" fill="#38bdf8" class="pulse"/>
+ <text x="94" y="64" fill="#93c5fd" font-size="11" letter-spacing="2">DEVELOPER PORTFOLIO</text>
+ <text x="64" y="141" fill="#f0f6fc" font-size="46" font-weight="700" letter-spacing="-1.5">KIM DONGHYUN</text>
+ <g clip-path="url(#typing)"><text x="66" y="191" fill="#7dd3fc" font-family="monospace" font-size="23">&gt; Frontend Developer_</text></g>
+ <text x="66" y="228" fill="#9aaec8" font-size="15">React · TypeScript · Java · Spring Boot</text>
+ <path d="M66 254H430" stroke="#2c3d56"/>
+ <text x="66" y="285" fill="#a78bfa" font-size="11" letter-spacing="3">LEARN / BUILD / ITERATE</text>
+</g>
+<g transform="translate(614 55)">
+ <rect width="322" height="222" rx="13" fill="#0b1220" stroke="#33445f"/>
+ <path d="M0 36H322" stroke="#28374e"/>
+ <circle cx="19" cy="18" r="4" fill="#fb7185"/><circle cx="33" cy="18" r="4" fill="#fbbf24"/><circle cx="47" cy="18" r="4" fill="#34d399"/>
+ <text x="165" y="22" text-anchor="middle" fill="#7e94b2" font-family="monospace" font-size="10">portfolio.tsx</text>
+ <g font-family="monospace" font-size="13">
+ <text x="22" y="68" fill="#c4b5fd">const developer = {</text>
+ <text x="34" y="96" fill="#8da4c4">focus: <tspan fill="#7dd3fc">'Frontend'</tspan>,</text>
+ <text x="34" y="124" fill="#8da4c4">project: <tspan fill="#6ee7b7">'일이음'</tspan>,</text>
+ <text x="34" y="152" fill="#8da4c4">year: <tspan fill="#fbbf24">2026</tspan></text>
+ <text x="22" y="180" fill="#c4b5fd">};<tspan fill="#7dd3fc" class="cursor"> ▌</tspan></text>
+ </g>
+ <path d="M22 202H300" stroke="url(#accent)" stroke-width="2" stroke-dasharray="8 12" class="flow" opacity=".65"/>
+</g>
+<g fill="none" stroke="url(#accent)" opacity=".65">
+ <circle cx="540" cy="173" r="30" stroke-width="1"/>
+ <circle cx="540" cy="173" r="42" stroke-dasharray="3 8" class="flow"/>
+</g>
+<text x="540" y="181" text-anchor="middle" fill="#a5d9f8" font-family="monospace" font-size="24">&lt;/&gt;</text>
+<circle r="4" fill="#38bdf8"><animateMotion dur="6s" repeatCount="indefinite" path="M540 131 A42 42 0 1 1 539.99 131"/></circle>
+</svg>
